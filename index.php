@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="test">
 
   <!--MENU-->
   <div class="wrapper menu">
@@ -55,22 +55,53 @@
       <div class="wrapper head">
         <div class="container">
 
-          <div class="row">
-            <div class="col-md-2 col-md-offset-5 col-xs-offset-4 col-xs-4 image">
-              <img src="images/Profil-3.jpg" alt="Hélène CHOLEZ" title"Hélène CHOLEZ">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 col-xs-offset-4 col-xs-4 image">
+                <img src="images/Profil-2.jpg" alt="Hélène CHOLEZ" title"Hélène CHOLEZ">
+              </div>
             </div>
+
           </div>
 
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <h1>Hélène Cholez</h1>
+          <div class="col-md-6 detail-info">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Hélène Cholez</h1>
+              </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2>Intégratrice & Photographe</h2>
+            <div class="row">
+              <div class="col-md-12 job">
+                <h2>Intégratrice & Photographe</h2>
+              </div>
             </div>
+
+            <div class="row info">
+              <div class="col-md-1"><i class="fa fa-birthday-cake" aria-hidden="true"></i></div>
+              <div class="col-md-11 detail">26</div>
+            </div>
+
+            <div class="row info">
+              <div class="col-md-1"><i class="fa fa-home" aria-hidden="true"></i></div>
+              <div class="col-md-11 detail">12 Rue des Cicadelles, 85 600 Saint Georges de Montaigu</div>
+            </div>
+
+            <div class="row info">
+              <div class="col-md-1"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+              <div class="col-md-11 detail">chlz.helene@gmail.com</div>
+            </div>
+
+            <div class="row info">
+              <div class="col-md-1"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+              <div class="col-md-11 detail">07 70 36 92 94</div>
+            </div>
+
+            <div class="row info">
+              <div class="col-md-1"><i class="fa fa-car" aria-hidden="true"></i></div>
+              <div class="col-md-11 detail">Permis B - Voiture</div>
+            </div>
+
           </div>
 
           <div class="row">
@@ -123,7 +154,21 @@
     </div>
 
     <div class="wrapper">
-      2
+      <div class="wrapper" id="me">
+        <div class="container">
+          <div class="row">
+            <h3>Qui suis-je ?</h3>
+          </div>
+
+          <div class="border">
+            <ul class="bulle">
+
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
     </div>
 
     <div class="wrapper">

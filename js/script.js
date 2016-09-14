@@ -2,6 +2,8 @@
 
   $(document).ready(function () {
 
+    $(".test").fadeIn(3000);
+
     var hauteur     = $(window).height();
     var hauteurCss  = parseInt(hauteur) - parseInt(250);
     $("#slides").css('height', hauteurCss + 'px');
