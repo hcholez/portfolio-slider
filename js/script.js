@@ -2,17 +2,18 @@
 
   $(document).ready(function () {
 
-    $(".test").fadeIn(3000);
+    $("body").fadeIn(3000);
 
     var hauteur     = $(window).height();
     var hauteurCss  = parseInt(hauteur) - parseInt(250);
-    $("#slides").css('height', hauteurCss + 'px');
+    $("#slides, #me, .head").css('height', hauteurCss + 'px');
 
     $(window).resize(function() {
-
+      console.log("resize");
       var hauteur = $(window).height();
-      var hauteurCss  = parseInt(hauteur) - parseInt(50);
+      var hauteurCss  = parseInt(hauteur) - parseInt(250);
 
+      $("#slides, #me, .head").css('height', hauteurCss + 'px');
     });
 
     //ACTIONS AU SCROLL

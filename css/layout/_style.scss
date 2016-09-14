@@ -45,6 +45,7 @@ body {
   }
 
   .slidesjs-pagination {
+    display: none;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -78,6 +79,7 @@ body {
 .head {
   background: #f5f5f5;
   padding: 30px 0 30px;
+  overflow: scroll;
 
   .image {
     overflow: hidden;
@@ -231,6 +233,41 @@ body {
 //Qui suis-je ?
 #me {
   background: rgba(245, 245, 245, 1);
+  overflow: scroll;
+
+  .bar {
+    width: 64%;
+    opacity: 0.2;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    background: #07cb79;
+  }
+
+  .box-top,
+  .box-bottom {
+    width: 20%;
+
+    .bulle {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      display: block;
+      border-radius: 50%;
+      top: 49.6%;
+      background: #07cb79;
+    }
+  }
+
+  .box-top {
+    border: 1px solid red;
+
+  }
+
+  .box-bottom {
+    border: 1px solid blue;
+  }
+
 
   h3 {
     color: rgba(0, 125, 75, 1);

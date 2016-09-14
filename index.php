@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="test">
+<body>
 
   <!--MENU-->
   <div class="wrapper menu">
@@ -24,19 +24,19 @@
 
       <div class="col-md-3 item">
         <a href="#me" title="Qui suis-je ?">
-          Qui suis-je ?
+          Mes études
         </a>
       </div>
 
       <div class="col-md-3 item">
         <a href="#competences" title="Mes compétences">
-          Mes compétences
+          Mes expériences
         </a>
       </div>
 
       <div class="col-md-3 item">
         <a href="#parcours" title="Mon parcours">
-          Mon parcours
+          Mes compétences
         </a>
       </div>
 
@@ -157,14 +157,70 @@
       <div class="wrapper" id="me">
         <div class="container">
           <div class="row">
-            <h3>Qui suis-je ?</h3>
+            <h3>Mes études</h3>
           </div>
 
-          <div class="border">
-            <ul class="bulle">
-
+          <div class="container">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-badge success"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Bac STG - Dijon</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Option Informatique</p>
+                    <p>Obtenu, mention AB</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-badge primary"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">IUT SRC - Dijon</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Service Réseaux et Communications</p>
+                    <p>Divers cours : droits, réseau, retouche photo, sociologie, management ...</p>
+                    <p>C'est ici que j'ai découvert la photographie</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge success"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Faculté de Droit - Dijon</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Voulant faire du droit dans l'informatique j'ai effectué la première année de droit.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">BTS SIO - Développement - Paris</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Changement de ville pour découvrir l'alternance ! Pouvoir étudier en même temps que travailler c'est une chouette expérience</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-badge primary"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="timeline-title">Mastere - Responsable chef de Projet - Paris</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Ayant beaucoup aimé ma première expérience en alternance j'ai continué dans ma lancé pour faire un mastère en développment</p>
+                  </div>
+                </div>
+              </li>
             </ul>
-          </div>
+        </div>
 
         </div>
 
