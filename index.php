@@ -50,7 +50,6 @@
   </div>
 
 
-
   <div id="slides">
     <div class="wrapper">
       <div class="wrapper head">
@@ -76,6 +75,8 @@
 
           <div class="row">
             <div class="col-md-12 network">
+
+              <h3>Vous pouvez me retrouver ici : </h3>
               <a href="https://www.facebook.com/PrincesseKaboom" target="_blank" title="Facebook Hélène CHOLEZ">
                 <div class="network-item">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -100,6 +101,20 @@
                 </div>
               </a>
             </div>
+          </div>
+
+          <div class="row quelquesMots">
+            <h3>En quelques mots ...</h3>
+
+            <div class="col-md-8 col-md-offset-2 description">
+              <p>
+                Malgré un parcours atypique, depuis mon plus jeune âge les nouvelles technologies m'ont beaucoup intéressées.
+              </p>
+              <p>
+                Je me suis donc lancé dans la grande aventure du monde technologique !
+              </p>
+            </div>
+
           </div>
 
         </div>
