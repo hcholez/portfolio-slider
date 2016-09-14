@@ -1,0 +1,128 @@
+@media screen and (max-width: 530px) {
+
+  .more {
+    width: 100% !important;
+  }
+
+  .head {
+    h1 {
+      margin: 50px 0 0 0;
+    }
+
+    .network {
+      a {
+        width: 17% !important;
+      }
+    }
+  }
+
+  a {
+    &.boyfriend {
+      top: 14% !important;
+      left: 3% !important;
+      right: 0 !important;
+      width: 55%;
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .click {
+    right: 10% !important;
+    top: 16% !important;
+  }
+
+  .fleche-click  {
+    transform: rotate(135deg);
+    top: 19% !important;
+    right: 30% !important;
+    width: 13% !important;
+  }
+
+  #parcours,
+  #passions {
+    height: 350px;
+
+    .container {
+      .row {
+        h3 {
+          line-height: 350px;
+        }
+      }
+    }
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .parcours-detail {
+    .entreprise {
+      padding: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .more {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .head {
+    .network {
+      a {
+        width: 9%;
+      }
+    }
+  }
+
+  a {
+    &.boyfriend {
+      top: 20%;
+    }
+  }
+
+  .click {
+    top: 15%;
+    right: 7%;
+  }
+
+  .fleche-click {
+    right: 2%;
+    width: 8%;
+    top: 17%;
+  }
+
+  .fleche {
+    display: none !important;
+  }
+
+  #me {
+    &.wrapper {
+      padding: 15px;
+    }
+
+    .bubble-right {
+      margin: 10px 0;
+
+      .detail {
+        &:before {
+          display: none;
+        }
+      }
+    }
+
+    .bubble-left {
+      margin: 10px 0;
+      .detail {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}
