@@ -52,11 +52,72 @@
 
 
   <div id="slides">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
+    <div class="wrapper">
+      <div class="wrapper head">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-2 col-md-offset-5 col-xs-offset-4 col-xs-4 image">
+              <img src="images/Profil-3.jpg" alt="Hélène CHOLEZ" title"Hélène CHOLEZ">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h1>Hélène Cholez</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2>Intégratrice & Photographe</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 network">
+              <a href="https://www.facebook.com/PrincesseKaboom" target="_blank" title="Facebook Hélène CHOLEZ">
+                <div class="network-item">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+              </a>
+
+              <a href="https://twitter.com/Hcholez" target="_blank" title="Twitter Hélène CHOLEZ">
+                <div class="network-item">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-cholez-163b7a32?trk=nav_responsive_tab_profile_pic" target="_blank" title="Linkedin Hélène CHOLEZ">
+                <div class="network-item">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </div>
+              </a>
+
+              <a href="https://plus.google.com/u/0/114766381686517225565/posts" target="_blank" title="Google + Hélène CHOLEZ">
+                <div class="network-item">
+                  <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrapper">
+      2
+    </div>
+
+    <div class="wrapper">
+      3
+    </div>
+
+    <div class="wrapper">
+      4
+    </div>
   </div>
 
   <div class="wrapper sub-footer">
@@ -100,9 +161,6 @@
     </div>
   </div>
 
-  <div class="fleche">
-    <i class="fa fa-arrow-up" aria-hidden="true"></i>
-  </div>
 
   <div class="wrapper footer">
     <div class="container">

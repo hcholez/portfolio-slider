@@ -11,7 +11,6 @@
       var hauteur = $(window).height();
       var hauteurCss  = parseInt(hauteur) - parseInt(50);
 
-
     });
 
     //ACTIONS AU SCROLL
